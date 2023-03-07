@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="theme-color" content="#000000" />
+  <meta name="description" content="Web site created using create-react-app" />
+  <link rel="apple-touch-icon" href="./favicon.ico" />
+
+
+  <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
+
+  <!-- external resources -->
+  <!-- BOOTSTRAP CONTENTA -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+
+  <title>React App</title>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Urbanist:wght@700&display=swap');
+  </style>
+
+  <!-- Font Awesome -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.11/typed.min.js"
+    integrity="sha512-BdHyGtczsUoFcEma+MfXc71KJLv/cd+sUsUaYYf2mXpfG/PtBjNXsPo78+rxWjscxUYN2Qr2+DbeGGiJx81ifg=="
+    crossorigin="anonymous"></script>
+  <!-- jquery cdn -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+
+</head>
+
+<body style="font-family: urbanist; overflow-x: hidden;">
+  <noscript>You need to enable JavaScript to run this app.</noscript>
+  <div id="root"></div>
+
+  <div class="pubble-app lives" data-app-id="118017" data-app-identifier="118017"></div>
+  <script type="text/javascript" src="https://cdn.chatify.com/javascript/loader.js" defer></script>
+
+
+
+  <script>
+    $(document).ready(function () {
+      $slides = $('.slides');
+      $slides.bind('contentchanged', function () {
+        animate($slides);
+      });
+      animate($slides);
+    });
+
+    function animate($slides) {
+      var slidesLength = $slides.find('li').length;
+      if (slidesLength > 3) {
+        $slides.find('li:nth-last-child(-n+3)').clone().prependTo($slides);
+        $slides.addClass('animate');
+        $slides.css('animation-duration', slidesLength * 7 + 's');
+      }
+    }
+  </script>
+
+  <script>
+    $(document).ready(function () { $("h1").addClass("animated bounceInUp"); });
+  </script>
+
+
+  <!-- whatsapp chat icon -->
+  <script>
+    var url = 'https://wati-integration-service.clare.ai/ShopifyWidget/shopifyWidget.js?51125';
+    var s = document.createElement('script');
+    s.type = 'text/javascript';
+    s.async = true;
+    s.src = url;
+    var options = {
+      "enabled": true,
+      "chatButtonSetting": {
+        "backgroundColor": "#0cbb28",
+        "ctaText": "Message us",
+        "borderRadius": "25",
+        "marginLeft": "40",
+        "marginBottom": "50",
+        "marginRight": "50",
+        "position": "left"
+      },
+      "brandSetting": {
+        "brandName": "Codec Systems Limited",
+        "brandSubTitle": "Typically replies within 24 hours",
+        "brandImg": "https://media.licdn.com/dms/image/C560BAQHxPh0VzKp76w/company-logo_200_200/0/1581585313226?e=1686182400&v=beta&t=QnKUWLqi7Jd3-Y4ahJ1hRC6xRvfZRg_TN_LKW0oYd9A",
+        "welcomeText": "Hi there!\nHow can we help today?",
+        "messageText": "Hello, I have a question about {{page_link}}",
+        "backgroundColor": "#01999a",
+        "ctaText": "Start Chat",
+        "borderRadius": "25",
+        "autoShow": false,
+        "phoneNumber": "2348034628633"
+      }
+    };
+    s.onload = function () {
+      CreateWhatsappChatWidget(options);
+    };
+    var x = document.getElementsByTagName('script')[0];
+    x.parentNode.insertBefore(s, x);
+  </script>
+
+</body>
+
+</html>

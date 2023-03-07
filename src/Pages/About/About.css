@@ -1,0 +1,36 @@
+
+
+.text-company, .text-company2{
+    font-family: urbanist;
+    font-weight: 700;
+    letter-spacing: 2px;
+    font-size: 60px;
+}
+
+.text-company{
+    color: #049B1C;
+}
+
+.smallTxt{
+    font-size: large;
+}
+
+.btnView2{
+    background-color: #0CBB28;
+    color: white;
+    width: 194px;
+    height: 50px;
+    border-radius: 0px;
+    outline: none;
+    outline-color: #0CBB28;
+    border: none;
+}
+
+.btnView2:hover{
+    background-color: #0CBB28;
+    color: white;
+}
+
+.wrapper{
+    border-bottom: 5em;
+}

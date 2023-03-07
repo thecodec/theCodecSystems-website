@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Urbanist:wght@700&display=swap');
+
+
+@media only screen and (max-width: 414px) {
+    .btnClients {
+        background-color: #05C605;
+        border: none;
+        width: 250px;
+    }
+
+    .star {
+        position: relative;
+        right: 40px;
+    }
+
+}
+
+.wrap {
+    width: 100%;
+    height: 30vh;
+    position: relative;
+    overflow: hidden;
+    margin-top: 10vh;
+}
+
+.slide-container {
+    position: absolute;
+    left: 0;
+    height: 100%;
+}
+
+.slides {
+    display: flex;
+    flex: row;
+    flex-wrap: no-wrap;
+    height: 100%;
+
+}
+
+.animate {
+    animation: moveSlideshow 20s linear infinite;
+}
+
+@keyframes moveSlideshow {
+    100% {
+        transform: translate3d(calc(-100% + 100vw), 0, 0);
+    }
+}
+
+.slides li {
+    display: block;
+    box-sizing: border-box;
+    width: 33.33vw;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.slides div>img {
+    display: flex;
+    box-sizing: border-box;
+    border-radius: 30px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    text-align: center;
+    justify-content: center;
+    align-self: center;
+}
+
+.slides li img {
+    display: block;
+    font-size: 40vh;
+    line-height: 100vh;
+}
+

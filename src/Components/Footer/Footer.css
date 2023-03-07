@@ -1,0 +1,45 @@
+
+@import url('https://fonts.cdnfonts.com/css/br-firma');
+.footerr{
+    background-color: #049B1C;
+}
+
+.ft1{
+    font-size: 15px;
+    font-weight: 100;
+    font-weight: 200;
+    color: #faf6f6;
+    font-family: BR firma;
+}
+.botom{
+    margin-bottom: 3em;
+}
+/* .socialIcons{
+    padding-left: 3px;
+} */
+
+.txts{
+    margin-top: 3em;
+    color: #faf6f6;
+}
+
+.footCredit{
+    background-color: #05851a;
+    width: 100%;
+}
+
+.links{
+    text-decoration: none;
+}
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 414px){
+
+}

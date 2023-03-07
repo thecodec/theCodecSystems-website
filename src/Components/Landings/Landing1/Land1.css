@@ -1,0 +1,76 @@
+/* Google fonts */
+
+
+@import url('https://fonts.googleapis.com/css2?family=Urbanist:wght@700&display=swap');
+h1{
+    color: #000000;
+    font-size: 60px;
+}
+.lemon{
+    color: #0CBB28;
+    font-weight: 700;
+    font-family: Urbanist;
+}
+.btnViews{
+    border: none;
+    background-color: #000000;
+    height: 3em;
+    width: 12em;
+}
+.btnViews:hover{
+    border: none;
+    background-color: #0CBB28;
+    height: 3em;
+    width: 12em;
+}
+
+.sect2{
+    background-color: #D0ECD5;
+}
+
+.fcolom{
+    border-right: 1px #837f7f solid;
+}
+
+/* .line{
+    background-color: grey;
+    height: 6em;
+    width: 2px;
+    display: inline-flex;
+} */
+
+@keyframes levitation {
+    0% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(-20px);
+    }
+    100% {
+      transform: translateY(0);
+    }
+  }
+  
+  .levitating {
+    animation: levitation 2s ease-in-out infinite;
+  }
+  .levitating {
+    transform: translateY(-20px);
+    transition: transform 1s ease-in-out;
+  }
+
+@media only screen and (max-width: 414px){
+    h1{
+        color: #000000;
+        font-size: 40px;
+    }
+    .fcolom{
+        border-right: none
+    }
+
+}
+
+/* animation here */
+.gbk{
+  z-index: -1
+}

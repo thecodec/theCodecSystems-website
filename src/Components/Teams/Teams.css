@@ -1,0 +1,19 @@
+
+.teamss{
+    color: #005F0F;
+}
+
+.names{
+    font-size: 30px;
+}
+.otherName{
+    font-size: 25px;
+    font-weight: lighter;
+}
+
+
+
+@media only screen and (max-width: 414px){
+   
+
+}

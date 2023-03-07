@@ -1,0 +1,176 @@
+@import url('https://fonts.googleapis.com/css2?family=Urbanist:wght@700&display=swap');
+
+
+
+.touch {
+  color: #0CBB28;
+}
+
+.txtextra {
+  font-size: 16px;
+  line-height: 24px;
+  word-spacing: 3px;
+  letter-spacing: 3px;
+}
+
+/* .formss{
+    width: 80%;
+    padding: 8px;
+    padding-left: 15px;
+    border-radius: 0px;
+    shape-outside: none;
+}
+
+.formss:focus{
+    border-radius: none;
+    border: none;
+} */
+
+input[type="text"] {
+  width: 100%;
+  height: 45px;
+  background: #ffffff;
+  border: 1px solid #000000;
+  border-radius: 0px;
+  font-size: 18px;
+  padding-left: 8px;
+}
+
+input[type="text"]:focus {
+  border: 1px solid #0CBB28;
+  outline: none;
+
+}
+
+input::placeholder {
+  color: rgb(110, 107, 107);
+  font-weight: lighter;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+textarea {
+  min-width: 100%;
+  max-width: 400px;
+  min-height: 200;
+  background: #ffffff;
+  border: 1px solid #000000;
+  border-radius: 0px;
+  padding-left: 8px;
+  height: 130px;
+
+}
+
+textarea::placeholder {
+  color: rgb(110, 107, 107);
+  font-weight: lighter;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; 
+}
+
+textarea:focus {
+  border: 1px solid #0CBB28;
+  outline: none;
+
+}
+
+.blockBtn {
+  width: 100%;
+  background: #0CBB28;
+  color: white;
+  border: none;
+  border-radius: 0px;
+  height: 50px;
+  font-family: 'Urbanist', sans-serif;
+  margin-top: 10px;
+
+}
+
+.blockBtn:hover {
+  background-color: #0e9625;
+  color: white;
+
+}
+
+.ml-5 {
+  margin-left: 100px;
+}
+
+.levitating {
+  transform: translateY(-20px);
+  transition: transform 1s ease-in-out;
+}
+
+@keyframes levitation {
+  0% {
+    transform: translateY(0);
+  }
+
+  50% {
+    transform: translateY(-20px);
+  }
+
+  100% {
+    transform: translateY(0);
+  }
+}
+
+.levitating {
+  animation: levitation 2s ease-in-out infinite;
+}
+
+@media only screen and (max-width: 468px) {
+  .ml-5 {
+    margin-left: 0px;
+  }
+
+}
+
+
+#loader {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  z-index: 1;
+  width: 120px;
+  height: 120px;
+  margin: -76px 0 0 -76px;
+  border: 16px solid #f3f3f3;
+  border-radius: 50%;
+  border-top: 16px solid #3498db;
+  -webkit-animation: spin 2s linear infinite;
+  animation: spin 2s linear infinite;
+}
+
+@-webkit-keyframes spin {
+  0% {
+    -webkit-transform: rotate(0deg);
+  }
+
+  100% {
+    -webkit-transform: rotate(360deg);
+  }
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+/* Add animation to "page content" */
+
+/* contact sent message */
+
+.contactSuccessModal {
+  background-color: #0f6e1e;
+  height: 20em;
+  width: 32em;
+  position: absolute;
+  left: 33%;
+  top: 10em;
+  z-index: 1;
+  border-radius: 10px;
+}

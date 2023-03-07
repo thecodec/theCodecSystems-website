@@ -1,0 +1,99 @@
+/* CUSTOM CSS */
+
+.navBg{
+    background-color: #FEFEFE;
+    color: black;
+    padding-left: 7em;
+}
+
+.navItems{
+    cursor: pointer;
+    color: black;
+}
+.navItems:hover{
+    color: #0CBB28;
+}
+
+.navItems2{
+    cursor: pointer;
+    color: rgb(255, 255, 255);
+}
+/* .navItems2:hover{
+    color: #0CBB28;
+} */
+
+.dropDown{
+    background-color: #0CBB28;
+    color: #FEFEFE;
+    padding: 1.5em;
+    position: absolute;
+    display: none;
+    transition: 1s;
+    top: 3em;
+}
+
+.drop-parent:hover .dropDown{
+    display: block;
+    transition: 1s;
+}
+li{
+    padding-left: 3em;
+    
+}
+.rightList{
+    position: relative;
+    padding-left: 16em;
+}
+
+.countries{
+    background-color: #0CBB28;
+    width: 3em;
+    height: 3em;
+    border-radius: 50px;
+}
+.contact{
+    margin-left: 1.5em;
+    margin-top: 5px;
+}
+
+.mls:hover{
+    cursor:pointer
+}
+
+
+
+
+@media only screen and (max-width: 425px){
+	.mls{
+        padding-left: 5px;
+        margin-top:10px;
+        cursor:pointer
+    }
+    .navBg{
+        padding-left: 0em;
+    }
+    li{
+        padding-left: 0em;
+    }
+    .rightList{
+        float: right;
+        position: relative;
+        padding-left: 0em;
+    }
+
+    .contact{
+        margin-left: 1.5em;
+        margin-top: 5px;
+    }
+}
+
+/* select coutry */
+.selectCountry{
+    border: none;
+    outline: none;
+    /* background-color:#049B1C; */
+    margin-top: 7px;
+    color: rgb(0, 0, 0);
+    padding: 10px;
+}
+

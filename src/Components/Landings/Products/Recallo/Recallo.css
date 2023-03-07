@@ -1,0 +1,74 @@
+.recaLogo {
+    position: relative;
+    right: 2em;
+}
+
+.text-company {
+    color: #FF6600;
+    font-size: 40px;
+}
+
+.text-company2 {
+    font-size: 40px;
+}
+
+.btnView {
+    border: none;
+    background-color: #000000;
+    height: 3em;
+    width: 12em;
+}
+
+.btnView:hover {
+    border: none;
+    background-color: #FF6600;
+}
+
+.btnView:hover img {
+    position: relative;
+    left: 8px;
+    transition: 1s;
+}
+
+@keyframes levitation {
+    0% {
+        transform: translateY(0);
+    }
+
+    50% {
+        transform: translateY(-20px);
+    }
+
+    100% {
+        transform: translateY(0);
+    }
+}
+
+.levitating {
+    animation: levitation 2s ease-in-out infinite;
+}
+
+.levitating {
+    transform: translateY(-20px);
+    transition: transform 1s ease-in-out;
+}
+
+.bkg {
+    background-color: #D0ECD5;
+    height: fit-content;
+    position: fixed-bottom;
+
+}
+
+.bkgs{
+    background-color: #D0ECD5;
+    height: 150px;
+}
+
+.wraps{
+    padding: 2em;
+    margin-bottom: 0px;
+    position: absolute;
+    left: 10px;
+
+}

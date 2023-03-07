@@ -1,0 +1,14 @@
+INSTRUCTIONS
+
+
+Clone the link to this repository
+
+install packages use in this project before starting the apllication
+(npm i)=============install all packages
+
+there are 2 branches available on project (master and testing)
+
+checkout to testing for modifications 
+push from testing 
+
+.................................................

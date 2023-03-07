@@ -1,0 +1,19 @@
+.btnView-e{
+    background-color: black;
+    border: none;
+    outline: none;
+    border-radius: 0px;
+    width: 263px;
+    height: 56px;
+}
+.btnView-e:hover{
+    background-color: blue;
+    border: none;
+    outline: none;
+
+}
+
+.h1{
+    font-size: 52px;
+    color: black;
+}
