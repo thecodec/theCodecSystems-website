@@ -12,7 +12,7 @@ const ScrollUp = () => {
     return (
         <div>
             <button className="scrol" id="scrolbtn" onClick={handleClick} style={{ position: 'fixed', bottom: 20, right: 20 }}>
-                <i className="fas fa-angle-double-up"></i>
+                <i className="fa fa-up fa-angle-double-up"></i>
             </button>
         </div>
     )

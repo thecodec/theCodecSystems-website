@@ -18,4 +18,9 @@
 
   }
 
+  .fa-up{
+    color: #000;
+    transition: all .8s ease-in-out;
+}
+
   
